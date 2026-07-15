@@ -1,0 +1,9 @@
+{
+  "name": "deployment-automator",
+  "version": "0.1.0",
+  "description": "Automates Jules B/G deployments end-to-end: pool selection, build trigger, jet CLI log monitoring, SNOW ticket input, gaiapools green-app verification, Splunk error-code monitoring, guarded B/G swap, and email notification.",
+  "author": {
+    "name": "Bishwajeet"
+  },
+  "keywords": ["deployment", "jules", "blue-green", "splunk", "automation"]
+}
