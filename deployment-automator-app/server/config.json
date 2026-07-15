@@ -1,0 +1,16 @@
+{
+  "jules_url": "TBD — e.g. https://jules.walmart.com",
+  "pipeline": "TBD — pipeline/repo whose build gets triggered",
+  "deploy_envs": "PROD-PCI",
+  "default_pools": ["na-5z", "na-5t", "na-82"],
+  "jet_log_cmd": "jet logs --job {JOB_ID}",
+  "gaiapools_url": "go/gaiapools",
+  "splunk_url": "TBD — Splunk web search page",
+  "splunk_index": "cfs_3pcs_gaia_109740",
+  "splunk_sourcetype": "ces",
+  "allowed_error_codes": ["0", "9999"],
+  "monitor_window_minutes": 15,
+  "monitor_sample_interval_minutes": 3,
+  "notification_dl": "TBD — DL email address",
+  "outlook_url": "https://outlook.office.com/mail"
+}
